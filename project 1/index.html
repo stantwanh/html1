@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>HTML Review</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel='stylesheet' type='text/css' media='screen' href='main-2.css'>
+<script src='main.js'></script>
+
+
+
+
+</head>
+
+<body>
+<nav class="top">
+<a href="#SkeletalTags">Skeletal Tags</a>
+<a href="#TextTags">Text Tags</a>
+<a href="#TextTags-Inline">Text Tags (Inline)</a>
+<a href="#lists">Lists (Block-level)</a>
+<a href="#structural">Structural Elements</a>
+<a href="#landm">Links and Media Tags</a>
+<a href="#tables">Tables</a>
+<a href="#more">More Tags</a>
+</nav>
+
+<div id="head" style="position: relative; width: 250px;">
+   <div style="position: absolute; top: 0; right: 0; width: 100px; text-align:right;"></div>
+   <div style="position: absolute; bottom: 0; right: 0; width: 100px; text-align:right;"> </div>
+   Jada Booze & Stantwan Hunter</div>
+
+<h1>HTML Review</h1>
+
+<h2>Brief Descriptions</h2>
+<div id= "BriefDescriptions" class="container">
+XML-(EXtensible Markup Language) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.
+<br>
+DTD-(Document Type Definition) is a document that defines the tagging structure of an SGML or XML document.
+<br>
+XSLT-(EXtensible Stylesheet Language Transformations) is a language for transforming XML documents into other XML documents, or other formats such as HTML for web pages, plain text or XSL Formatting Objects.
+<br>
+HTML- (HyperText Markup Language) is the standard markup language for documents designed to be displayed in a web browser.
+<br>
+CSS-(Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in a markup language like HTML.
+<br>
+Web Forms- is an online page that allows for user input.
+<br>
+JavaScript- is an object-oriented computer programming language commonly used to create interactive effects within web browsers.
+<br>
+DOM-(Document Object Model) is a cross-platform and language-independent interface that treats an XML or HTML document as a tree structure wherein each node is an object representing a part of the document.
+<br>
+DHTML-(Dynamic HTML)is a collection of technologies used together to create interactive and animated websites by using a combination of a static markup language, a client-side scripting language, a presentation definition language, and the Document Object Model.
+<br>
+PHP-(Personal Home Pages)-is a server side scripting language. that is used to develop Static websites or Dynamic websites or Web applications.
+<br>
+ASP-(Active Server Pages) It is a development framework used for building web pages.
+<br>
+ASP.NET-is also a server-side web framework, open source, which is designed for the generation of dynamic web pages.
+<br>
+JSP-(Java Server Pages) is a collection of technologies that helps software developers create dynamically generated web pages based on HTML, XML, SOAP, or other document types.
+<br>
+Node.JS- is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser.
+<br>
+Bootstrap (web dev. Lib)-is an open-source CSS framework directed at responsive, mobile-first front-end web development.
+<br>
+MySQL-is an open-source relational database management system.
+<br>
+HTTP-(HyperText Transfer Protocol)-is an application protocol for distributed, collaborative, hypermedia information systems.
+<br>
+HTTPS-(HyperText Transfer Protocol Secure ) is an extension of the Hypertext Transfer Protocol that is used for secure communication over a computer network, and is widely used on the Internet.
+<br>
+UDP-(User Datagram Protocol) is an alternative communications protocol used primarily for establishing low-latency and loss-tolerating connections between applications on the internet.
+<br>
+TCP-(Transmission Control Protocol) is a standard that defines how to establish and maintain a network conversation through which application programs can exchange data.
+<br>
+URL-(Uniform Resource Locator) is used to specify addresses on the World Wide Web.
+<br>
+URN-(Uniform Resource Name) is a Uniform Resource Identifier (URI) that uses the urn scheme.
+<br>
+URI-(Uniform Resource Identifier) is a string of characters that identifies a particular resource.
+<br>
+IP-(Internet Protocol)is a set of rules governing the format of data sent over the Internet or other network.
+<br>
+IP address-(Internet Protocol address)is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication.
+<br>
+FQDN-(Fully Qualified Domain Name) is the complete domain name for a specific computer, or host, on the internet. The FQDN consists of two parts: the hostname and the domain name.
+<br>
+ARPANET-(Advanced Research Projects Agency Network) was an early packet-switching network and the first network to implement the TCP/IP protocol suite.
+<br>
+Web Server-On the hardware side, a web server is a computer that stores web server software and a website's component files It is connected to the Internet and supports physical data interchange with other devices connected to the web.
+<br>
+Port-is the part of a computing device available for connection to peripherals such as input and output devices.
+<br>
+Web-hosting- is a business that provides the technologies and services needed for the website or webpage to be viewed in the Internet.
+<br>
+FTP-(File Transfer Protocol) is a standard network protocol used for the transfer of computer files between a client and server on a computer network.
+<br>
+SFTP-(SSH File Transfer Protocol) is a network protocol that provides file access, file transfer, and file management over any reliable data stream.
+<br>
+SSH-(Secure SHell) is a cryptographic network protocol for operating network services securely over an unsecured network.
+<br>
+API-(Application Programming Interface) is an interface or communication protocol between different parts of a computer program intended to simplify the implementation and maintenance of software.
+<br>
+RESTful API-(Representational StateTransfer) is a software architectural style that defines a set of constraints to be used for creating Web services.
+<br>
+SOAP- (Simple Object Access Protocol) is a messaging protocol specification for exchanging structured information in the implementation of web services in computer networks. Its purpose is to provide extensibility, neutrality and independence.
+<br>
+Request-Response- is a message exchange pattern in which a requestor sends a request message to a replier system which receives and processes the request, ultimately returning a message in response.
+<br>
+<ul>HTTP Requests (All 5)-
+<li> GET The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.</li>
+<li> HEAD The HEAD method asks for a response identical to that of a GET request, but without the response body. </li>
+<li> The POST method is used to submit an entity to the specified resource, often causing a change in state or side effects on the server.</li>
+<li> PUT The PUT method replaces all current representations of the target resource with the request payload. </li>
+<li> DELETE -The DELETE method deletes the specified resource.</li>
+</ul>
+JPEG-(Joint Photographic Experts Group) a format for compressing image files
+<br>
+PNG-(Portable Network Graphics) is a raster-graphics file-format that supports lossless data compression.</p>
+<br>
+</div>
+
+<a class="btn btn-primary" href="#top"> Back to Top</a><br>
+
+
+<h2>Html Tags</h2>
+<div id="SkeletalTags" class="container">
+<p> Skeletal Tags</p>
+<ul>
+<li>Html- open and closes the page, always on top the first element contain <'head'> and <'body'> tags.
+<ul>
+<li>Example:<br>
+<b> <’html’> //open</b><br>
+<br>
+<’head’><br>
+<’/head’><br>
+<br>
+<’body’><br>
+<’/body’><br>
+<br>
+<b><’/html’> //close</b>
+</li>
+</ul>
+</li>
+<li>Head- is not visible; it gives information about the page itself.displays to the browser tab </li>
+<ul>
+<li>Example:<br>
+<b><’head’> //open</b><br>
+Information in the head<br>
+<b><’/head’>//close</b><br><br>
+</li>
+</ul>
+
+<li>title-add a title for the webpage,located in the head tags </li>
+<ul>
+<li>Example:<br>
+<’head’><br>
+<b><’title’>here is where the title goes <’/title’> <br></b>
+<’/head’><br><br>
+</li>
+</ul>
+
+<li>meta-provide structured metadata about a Web page. They are part of a web page's head section. Do not need a closing tag</li>
+<ul>
+<li>Example:<br>
+ <’head’><br>
+<b><’meta’></b><br>
+<’/head’><br><br>
+</li>
+</ul>
+
+<li>body-defines the main content of the HTML document or the section of the HTML document that will be directly visible on your web page.</li>
+<ul>
+<li>Example:<br>
+<’html’><br>
+<b><’body’>//open</b><br>
+Information goes in here<br>
+<b><’/body’>//close</b><br>
+<’/html’><br>
+</li>
+</ul>
+
+
+</ul>
+</div>
+
+
+<a class="btn btn-primary" href="#top"> Back to Top</a><br>
+
+<div id="TextTags" class="container">
+<p> Text Tags</p>
+<ul>
+<li>p- defines a paragraph. Browsers automatically add some space (margin) before and after each
+  <ul>
+<li>Example:<br>
+<’body’></br>
+<b><’p’> this is a paragraph <’/p’></b><br>
+<’/body’><br>
+</li>
+<li>Output:<br>
+<p> this is a paragraph </p>
+</li>
+</ul>
+</li>
+
+<li>h1 to h6: used to define HTML headings.</li>
+<ul>
+<li>Example:<br>
+<’h1’>This is heading 1<’/h1’><br>
+<’h2’>This is heading 2<’/h2’><br>
+<’h3’>This is heading 3<’/h3’><br>
+<’h4’>This is heading 4<’/h4’><br>
+<’h5’>This is heading 5</h5><br>
+<’h6’>This is heading 6<’/h6’><br>
+</li>
+<li>Output:<br>
+<h1>This is heading 1</h1><br>
+<h2>This is heading 2</h2><br>
+<h3>This is heading 3</h3><br>
+<h4>This is heading 4</h4><br>
+<h5>This is heading 5</h5><br>
+<h6>This is heading 6</h6><br>
+</li>
+</ul>
+
+
+
+
+<li>Blockquote- a section [within a document] that is quoted from another source</li>
+<ul>
+<li>Example:<br>
+<b><’blockquote cite="http://www.worldwildlife.org/who/index.html"’></b><br>
+For 50 years, WWF has been protecting the future of nature.<br>
+<b><’/blockquote’></b><br>
+</li>
+<li>Output:<br>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature.
+</blockquote><br>
+</li>
+</ul>
+
+
+
+<li>Address- the contact information for the author/owner of a document or an article.</li>
+<ul>
+<li>Example:<br>
+<b><’address’></b><br>
+Written by <'a href='/mailto:johndoe@example.com'>Jon Doe<''/a'>.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA<br>
+<b><’/address’></b>
+</li>
+<li>Output:<br>
+<address>
+Written by <a href="mailto:johndoe@example.com">Jon Doe</a>.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address><br>
+</li>
+</ul>
+
+
+<li>pre- element is displayed in a fixed-width font and it preserves both spaces and line breaks.</li>
+<ul>
+<li>Example:<br>
+<b><’pre’></b><br>
+Text in a pre element<br>
+is displayed in a fixed-width<br>
+font, and it preserves<br>
+both  	spaces and<br>
+line breaks<br>
+<b><’/pre’></b><br>
+</li>
+<li>Output:<br>
+<pre>
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both  	spaces and
+line breaks
+</pre>
+</li>
+</ul>
+
+</ul>
+</div>
+
+
+<a class="btn btn-primary" href="#top"> Back to Top</a><br>
+
+
+<div id="TextTags-Inline" class="container">
+<p>Text Tags (Inline)</p>
+<ul>
+<li>em- marks text that has stress emphasis which traditionally means that the text is displayed in italics by the browser.</li>
+<ul>
+<li>Example:<br>
+<’body’><br>
+<’p’><b><’em’>Stress emphasized text goes here<’/em’></b> but not here<’/p’><br>
+<’/body’><br>
+</li>
+<li>Output:<br>
+<body>
+<p><em>Stress emphasized text goes here</em> but not here</p>
+</body>
+</li>
+</ul>
+
+
+<li>strong- gives text a strong emphasis which traditionally means that the text is displayed as bold by the browser.</li>
+<ul>
+<li>Example:<br>
+<’body’><br>
+<’p’><b><’strong’>Emphasized text goes here<’/strong’></b> but not here<’/p’><br>
+</body><br>
+</li>
+<li>Output:<br>
+<body>
+<p><strong>Emphasized text goes here</strong> but not here</p>
+</body>
+</li>
+</ul>
+
+
+<li>q- a short quotation.</li>
+<ul>
+<li>Example:<br>
+<’p’>WWF's goal is to:
+<b><’q’>Build a future where people live in harmony with nature.<’/q’></b><br>
+We hope they succeed.<’/p’><br>
+</li>
+<li>Output:<br>
+<p>WWF's goal is to:
+<q>Build a future where people live in harmony with nature.</q>
+We hope they succeed.</p>
+</li>
+</ul>
+
+
+<li>cite- the title of a work</li>
+<ul>
+<li>Example:<br>
+<’p’><b><’cite’>The Scream<’/cite’></b> by Edward Munch. Painted in 1893.<’/p’><br>
+</li>
+<li>Output:<br>
+<p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p><br>
+</li>
+</ul>
+
+
+<li>dfn- represents the defining instance of a term in HTML.</li>
+<ul>
+<li>Example:<br>
+<’p’><b><’dfn’>HTML<’/dfn’> </b>is the standard markup language for creating web pages.<’/p’><br>
+</li>
+<li>Output:<br>
+<p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p><br>
+</li>
+</ul>
+
+
+<li>code-is a phrase tag. It defines a piece of computer code.</li><br>
+<li>mark- defines marked text; it highlight parts of your text</li>
+<ul>
+<li>Example:<br>
+<’p’>Do not forget to buy<b> <’mark’>milk<’/mark’></b> today.<’/p’><br>
+</li>
+<li>Output:<br>
+<p>Do not forget to buy <mark>milk</mark> today.</p><br>
+</li>
+</ul>
+
+
+<li>del- defines text that has been deleted from a document.used to markup updates and modifications in a document. Browsers will normally strike a line through deleted text</li>
+<ul>
+<li>Example:<br>
+<’p’>My favorite color is<b> <’del’>blue<’/del’></b>!<’/p’><br>
+</li>
+<li>Output:<br>
+<p>My favorite color is <del>blue</del>!</p><br>
+</li>
+</ul>
+
+
+<li>Ins- used to markup updates and modifications in a document. Browsers will normally underline inserted text.</li>
+<ul>
+<li>Example:<br>
+<’p’>My favorite color is <b><’ins’>red<’/ins’></b>!</p><br>
+</li>
+<li>Output:<br>
+<p>My favorite color is <ins>red</ins>!</p><br>
+</li>
+</ul>
+
+
+<li>abbr- defines an abbreviation or an acronym,Marking up abbreviations can give useful information to browsers, translation systems and search-engines.</li>
+<ul>
+<li>Example:<br>
+<’p’> The <b><’abbr title="World Health Organization"’>WHO<’/abbr’></b> was founded in 1948.</p><br>
+</li>
+<li>Output:<br>
+<p> The <abbr title="World Health Organization"> WHO</abbr> was founded in 1948.</p><br>
+</li>
+</ul>
+
+
+<li>span- element used to color a part of a text. provides no visual change by itself. provides a way to add a hook to a part of a text or a part of a document.</li>
+<ul>
+<li>Example:<br>
+<’p’>My mother has <b><’span style="color:blue"’>blue<’/span’></b> eyes.<’/p’><br>
+</li>
+<li>Output:<br>
+<p>My mother has <span style="color:blue">blue</span> eyes.</p><br>
+</li>
+</ul>
+
+<li>br- inserts a single line break, not to separate paragraphs.It doesn't need a closing tag</li>
+<ul>
+<li>Example:<br>
+<’p’>To force <b><’br’></b>line breaks<b><’br’></b> in a text,<b><’br’></b> use the br<b><’br’></b> element.<’/p’><br>
+</li>
+<li>Output:<br>
+<p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p><br>
+</li>
+</ul>
+
+
+</ul>
+</div>
+
+
+<a class="btn btn-primary" href="#top"> Back to Top</a><br>
+
+<div id="lists" class="container">
+<p> Lists (block-level)</p>
+<ul>
+<li>ol-defines an ordered list. An ordered list can be numerical or alphabetical.tag together with the <'li'> tag to create ordered lists.</li>
+<ul>
+<li>Example:<br>
+<b><’ol’></b><br>
+  <’li’>Coffee<’/li’><br>
+  <’li’>Tea<’/li’><br>
+  <’li’>Milk<’/li’><br>
+<b><’/ol’></b><br>
+</li>
+<li>Output:<br>
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol><br>
+</li>
+</ul>
+
+
+<li>ul- defines an unordered (bulleted) list.tag together with the <'li'> tag to create unordered lists.</li>
+<ul>
+<li>Example:<br>
+<b><’ul’></b><br>
+  <’li’>Coffee<’/li’><br>
+  <’li’>Tea<’/li’><br>
+  <’li’>Milk<’/li’><br>
+<b><’/ul’></b><br>
+</li>
+<li>Output:<br>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+</li>
+</ul>
+
+
+<li>li-defines a list item. It is used in ordered lists(<'ol'>), unordered lists (<'ul'>), and in menu lists (<'menu'>)</li>
+<ul>
+<li>Example:<br>
+<’ol’><br>
+ <b> <’li’></b>Coffee<b><’/li’></b><br>
+<b>  <’li’></b>Tea<b><’/li’></b><br>
+ <b> <’li’></b>Milk<b><’/li’></b><br>
+</ol><br>
+</li>
+<li>Output:<br>
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+</li>
+<ul><br>
+
+
+<li>dl-defines a description list. It is used in conjunction with <'dt'> (defines terms/names) and <'dd'> (describes each term/name)</li>
+<ul>
+<li>Example:<br>
+<b><’dl’></b><br>
+  <’dt’>Coffee<’/dt’><br>
+  <’dd’>Black hot drink<’/dd’><br>
+  <’dt’>Milk<’/dt’><br>
+  <’dd’>White cold drink<’/dd’><br>
+<’/dl’><br>
+<li>Output:<br>
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+</li>
+</ul>
+
+
+
+<li>dt- a term/name in a description list.its used in conjunction with <'dl'> (defines a description list) and <'dd'> (describes each term/name).</li>
+<ul>
+<li>Example:<br>
+<’dl’><br>
+ <b> <’dt’>Coffee<’/dt’></b><br>
+  <’dd’>Black hot drink<’/dd’><br>
+<b>  <’dt’>Milk<’/dt’></b><br>
+  <’dd’>White cold drink<’/dd’><br>
+<’/dl’><br>
+</li>
+<li>Output:<br>
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+</li>
+</ul>
+<li>dd-used to describe a term/name in a description list. you can put paragraphs, line breaks, images, links, lists, etc.</li>
+<ul>
+<li>
+<’dl’><br>
+  <’dt’>Coffee<’/dt’><br>
+  <b><’dd’>Black hot drink<’/dd’></b>
+  <’dt’>Milk<’/dt’><br>
+  <b><’dd’>White cold drink<’/dd’></b>
+<’/dl’><br>
+</li>
+<li>Output:<br>
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+</li>
+</ul>
+
+</div>
+
+<a class="btn btn-primary" href="#top"> Back to Top</a><br>
+
+<div id="structural" class="container">
+<p> Structural Elements</p>
+<ul>
+<li>header-<'header'> element represents a container for introductory content or a set of navigational links.</li>
+<ul>
+<li>Example:<br>
+<’article’><br>
+<b>  <’header’></b><br>
+    <’h1’>Most important heading here<’/h1’><br>
+    <’h2’>Less important heading here<’/h2’><br>
+    <’p’>Some additional information here<’/p’><br>
+  <b><’/header’></b><br>
+  <’p’>Lorem Ipsum dolor set amet....<’/p’><br>
+<’/article’><br>
+</li>
+</ul><br>
+
+<li>footer- <'footer'> defines a footer for a document or section. element should contain information about its containing element.</li>
+<ul>
+<li>
+<b><’footer’></b><br>
+  <’p’>Posted by: Hege Refsnes<’/p’><br>
+  <’p’>Contact information: <’a href="mailto:someone@example.com"’>
+  someone@example.com<’/a’>.<’/p’><br>
+<b><’/footer’></b><br>
+</li>
+</ul><br>
+
+
+<li>nav-<'nav'> tag defines a set of navigation links.The <'nav'> element is intended only for major block of navigation links.</li>
+<ul>
+<li>Example:<br>
+<b><’nav’></b><br>
+  <’a href="/html/"’>HTML<’/a’> <br>
+  <’a href="/css/"’>CSS<’/a’> <br>
+  <’a href="/js/"’>JavaScript<’/a’> <br>
+  <’a href="/jquery/"’>jQuery<’/a’><br>
+<b></nav></b><br>
+</li>
+</ul>
+
+
+<li>Section:
+<ul>
+<li>article-<'article'> tag specifies independent, self-contained content.</li>
+<ul>
+<li>Example:<br>
+<b><’article’></b><br>
+<’h2’>Google Chrome<’/h2’><br>
+<’p’>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!<’/p’><br>
+<’/article’><br>
+</li>
+</ul><br>
+
+
+<li>main-<'main'> tag specifies the main content of a document.The content inside the <'main'> element should be unique to the document.</li>
+<ul>
+<li>Example:<br>
+<b><’main’></b><br>
+  <’h1’>Web Browsers<’/h1’><br>
+  <’p’>Google Chrome, Firefox, and Internet Explorer are the most used browsers today.<’/p’><br>
+  <’article’><br>
+    <’h1’>Google Chrome<’/h1’><br>
+    <’p’>Google Chrome is a free, open-source web browser developed by Google,
+	released in 2008.<’/p’><br>
+  <’/article’><br>
+<b></main></b><br>
+</li>
+</ul>
+
+<li>aside-The <'aside'> tag defines some content aside from the content it is placed in.The aside content should be related to the surrounding content.</li>
+<ul>
+<li>Example:<br>
+<’p’>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!<’/p’>
+
+<b><’aside’></b><br>
+<’h4’>Epcot Center<’/h4’><br>
+<’p’>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.<’/p’><br>
+<’/aside’><br>
+</li>
+</ul><br>
+
+
+<li>Div-The <'div'> tag defines a division or a section in an HTML document.The element is often used as a container for other HTML elements to style them with CSS or to perform certain tasks with JavaScript.</li>
+<ul>
+<li>Example:<br>
+<b><’div style="background-color:lightblue"’></b><br>
+  <’h3’>This is a heading<’/h3’><br>
+  <’p’>This is a paragraph.<’/p’><br>
+<’/div’><br>
+</li>
+</ul><br>
+
+
+<li>hr-The <'hr'> tag defines a thematic break in an HTML page its used to separate content in an HTML page. It dont need a closing tag</li>
+<ul>
+<li>Example:<br>
+<’h1’>HTML<’/h1’><br>
+<’p’>HTML is a language for describing web pages.....<’/p’><br>
+<’hr’><br>
+<’h1’>CSS<’/h1’><br>
+<’p’>CSS defines how to display HTML elements.....<’/p’><br>
+</li>
+</ul>
+
+</ul>
+</li>
+</ul>
+</div>
+
+
+<a class="btn btn-primary" href="#top"> Back to Top</a><br>
+
+
+<div id="landm" class="container">
+<p> Links and Media tags</p>
+<ul>
+<li>a- The <'a'> tag defines a hyperlink, which is used to link from one page to another.</li>
+<ul>
+<li>Example:<br>
+<’a href="https://www.google.com"’> google<’/a’><br>
+</li>
+<li>Output:<br>
+<a href="https://www.google.com">google</a>
+</li>
+</ul>
+
+
+<li>link- HTML links are hyperlinks. You can click on a link and jump to another document.A link does not have to be text. It can be an image or any other HTML element.</li>
+<ul>
+<li>Example:<br>
+<’a href="url"’>link text<’/a’><br>
+</li>
+<li>Output:<br>
+<a href="url">link text</a><br>
+</li>
+</ul>
+
+
+<li>img- The <'img'> tag defines an image in an HTML page. The <'img'> tag has two required attributes: src and alt.</li>
+<ul>
+<li>Example:<br>
+<’img src="smiley.gif" alt="Smiley face"’><br>
+</li>
+<li>Output:<br>
+<img src="smiley.jpg" alt="Smiley face">
+</li>
+</ul>
+
+
+<li>Figure-The <'figure'> tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.element to mark up a photo in a document.</li>
+<ul>
+<li>Example:<br>
+<b><’figure’></b><br>
+  <’img src="pulput.jpeg" alt="The Pulpit Rock" width="304" height="228"’><br>
+<b><’/figure’></b><br>
+</li>
+<li>Output:<br>
+<figure>
+  <img src="pulput.jpeg" alt="The Pulpit Rock" width="304" height="228">
+</figure>
+</li>
+</ul><br>
+
+<li>figcaption-The <'figcaption'> tag defines a caption for a <'figure'> element.</li>
+<ul>
+<li>Example:<br>
+<’figure’><br>
+  <’img src="trulli.jepg" alt="Trulli" style="width:100%"’><br>
+  <b><’figcaption’>Fig.1 - Trulli, Puglia, Italy.<’/figcaption’></b><br>
+<’/figure’><br>
+</li>
+<li>Output:<br>
+<figure>
+  <img src="trulli.jpeg" alt="Trulli" style="width:100%">
+ <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+</figure>
+</li>
+</ul><br>
+
+
+<li>Video- The <'video'> tag specifies video, such as a movie clip or other video streams.</li>
+<ul>
+<li>Example:<br>
+<b><’video width="320" height="240" controls’></b><br>
+  <’source src="movie.mp4" type="video/mp4"’><br>
+  <’source src="movie.ogg" type="video/ogg"’><br>
+  Your browser does not support the video tag.<br>
+<’/video’><br>
+</li>
+<li>Output:<br>
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+</li>
+</ul>
+
+
+<li>Audio- The <'audio'> tag defines sound, such as music or other audio streams.</li>
+<ul>
+<li>Example:<br>
+<b><’audio controls’></b><br>
+  <’source src="horse.ogg" type="audio/ogg"’><br>
+  <’source src="horse.mp3" type="audio/mpeg"’><br>
+  Your browser does not support the audio tag.<br>
+<’/audio’><br>
+</li>
+<li>Output:<br>
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+</li>
+</ul>
+
+
+<li>object- The <'object'> tag defines an embedded object within an HTML document. Use this element to embed multimedia (like audio, video, Java applets, ActiveX, PDF, and Flash) in your web pages.</li>
+<ul>
+<li>Example:<br>
+<’object width="400" height="400" data="helloworld.swf"’><’/object’><br>
+</li>
+</ul>
+
+param-The <param> tag is used to define parameters for plugins embedded with an <object> element.
+
+
+<ul>
+<li>Example:<br>
+<’object data="horse.wav"’><br>
+  <’param name="autoplay" value="true"’><br>
+<’/object’><br>
+</li>
+</ul>
+
+
+<li>embed-The <'embed'> tag defines a container for an external application or interactive content (a plug-in).</li>
+<ul>
+<li>Example:<br>
+<’embed src="helloworld.swf"’><br>
+</li>
+</ul>
+
+
+</ul>
+</div>
+
+<div id="tables" class="container">
+<p> Tables </p>
+<ul>
+<li>table-An HTML table consists of the <'table'> element and one or more <'tr'>, <'th'>, and <'td'> elements.</li>
+<ul>
+<li>Example:<br>
+<b><’table’></b><br>
+  <’tr’><br>
+    <’th’>Month<’/th’><br>
+    <’th’>Savings<’/th’><br>
+  <’/tr’><br>
+  <’tr’><br>
+    <’td’>January<’/td’><br>
+    <’td’>$100<’/td’><br>
+  <’/tr’><br>
+<b><’/table’></b><br>
+</li>
+<li>Output:<br>
+<table>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+</table>
+</li>
+</ul>
+
+
+<li>tr- The <'tr'> tag defines a row in an HTML table.</li>
+<ul>
+<li>Example:<br>
+<’table’><br>
+ <b> <’tr’></b><br>
+    <’th’>Month<’/th’><br>
+    <’th’>Savings<’/th’><br>
+<b>  <’/tr’></b><br>
+ <’/table’><br>
+</li>
+<li>Output:<br>
+<table>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+ </table>
+</li>
+</ul>
+
+
+
+<li>th-The text in <'th'> elements are bold and centered by default.The text in <'td'> elements are regular and left-aligned by default.</li>
+<ul>
+<li>Example:<br>
+<’table’><br>
+ <’tr’><br>
+ <b>  <’th’>Month<’/th’></b><br>
+   <’/tr’><br>
+<’/table’><br>
+</li>
+<li>Output:<br>
+<table>
+ <tr>
+   <th>Month</th>
+   </tr>
+</table>
+</li>
+</ul>
+
+
+<li>td-The <'td'> tag defines a standard cell in an HTML table.</li>
+<ul>
+<li>Example:<br>
+<’table’><br>
+  <’tr’><br>
+    <b><’td’>Cell A<’/td’></b><br>
+  <’/tr’><br>
+<’/table’><br>
+</li>
+<li>Output:<br>
+<table>
+  <tr>
+    <td>Cell A</td>
+  </tr>
+</table>
+</li>
+</ul>
+
+
+<li>Caption- The <'caption'> tag defines a table caption.The <'caption'> tag must be inserted immediately after the <'table'> tag.</li>
+<ul>
+<li>Example:<br>
+<’table’><br>
+  <b><’caption’>Monthly savings<’/caption’></b><br>
+<’/table’><br>
+</li>
+<li>Output:<br>
+<table>
+  <caption>Monthly savings</caption>
+</table>
+</li>
+</ul>
+
+
+<li>Thead-The <'thead'> tag is used to group header content in an HTML table.</li>
+<ul>
+<li>Example:<br>
+<’table’><br>
+  <b><’thead’></b><br>
+    <’tr’><br>
+      <’th’>Month<’/th’><br>
+      <’th’>Savings<’/th’><br>
+    <’/tr’><br>
+ <b> <’/thead’></b><br>
+<’/table’><br>
+</li>
+<li>Output:<br>
+<table>
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+    </tr>
+  </thead>
+</table>
+</li>
+</ul>
+
+
+<li>tbody-The <'tbody'> tag is used to group the body content in an HTML table</li>
+<ul>
+<li>Example:<br>
+<’table’><br>
+  <’thead’><br>
+    <’tr’><br>
+      <’th’>Month<’/th’><br>
+      <’th’>Savings<’/th’><br>
+    <’/tr’><br>
+  <’/thead’><br>
+<b>  <tbody></b><br>
+    <’tr’><br>
+      <’td’>January<’/td’><br>
+      <’td’>$100<’/td’><br>
+    <’/tr’><br>
+    <’tr’><br>
+      <’td’>February<’/td’><br>
+      <’td’>$80<’/td’><br>
+    <’/tr’><br>
+<b>  <’/tbody’></b><br>
+<’/table’><br>
+</li>
+<li>Output:
+<table>
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$80</td>
+    </tr>
+  </tbody>
+</table>
+</li>
+</ul>
+
+
+<li>colgroup-The <'colgroup'> tag specifies a group of one or more columns in a table for formatting. useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.</li>
+<ul>
+<li>Example:<br>
+<’table’><br>
+<b>  <’colgroup’></b><br>
+    <’col span="2" style="background-color:red"’><br>
+    <’col style="background-color:yellow"’><br>
+<b>  <’/colgroup’></b><br>
+</li>
+<li>Output:<br>
+<table>
+  <colgroup>
+    <col span="2" style="background-color:red">
+    <col style="background-color:yellow">
+  </colgroup>
+</li>
+</ul>
+
+
+<li>col-The <'col'> tag specifies column properties for each column within a <'colgroup'> element. The <'col'> tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.</li>
+<ul>
+<li>Example:<br>
+<’table’><br>
+  <’colgroup’><br>
+   <b> <’col span="2" style="background-color:red"’></b><br>
+    <b><’col style="background-color:yellow"’></b><br>
+  <’/colgroup’><br>
+<’/table’><br>
+</li>
+</ul>
+
+
+<li>tfoot-The <'tfoot>'' tag is used to group footer content in an HTML table.</li>
+<ul>
+<li>Example:<br>
+<’table’><br>
+<b><’tfoot’></b><br>
+    <’tr’><br>
+      <’td’>Sum<’/td’><br>
+      <’td’>$180<’/td’><br>
+    <’/tr’><br>
+<b>  <’/tfoot’></b><br>
+<’/table’><br>
+</li>
+<li>Output:<br>
+<table>
+<tfoot>
+    <tr>
+      <td>Sum</td>
+      <td>$180</td>
+    </tr>
+  </tfoot>
+</table>
+</li>
+</ul>
+
+
+</ul>
+
+</div>
+
+<div id="more" class="container">
+<p> More Tags </p>
+<ul>
+<li>Style-The <'style'> tag is used to define style information for an HTML document.Inside the <'style'> element you specify how HTML elements should render in a browser.</li>
+<ul>
+<li>Example:<br>
+<’html’><br>
+<’head’><br>
+<’style’><br>
+h1 {‘color:red;’}<br>
+p {‘color:blue;’}<br>
+<’/style’><br>
+<’/head’><br>
+<’/html’><br>
+</li>
+</li>
+</ul>
+
+
+<li>Script-The <'script'> element either contains scripting statements, or it points to an external script file through the src attribute.Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content.</li>
+<ul>
+<li>Example:<br>
+<’script’><br>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";<br>
+<’/script’><br>
+</li>
+<li>Output:<br>
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+</li>
+</ul>
+
+
+<li>Canvas- The <'canvas'> tag is used to draw graphics, on the fly, via scripting (usually JavaScript).</li>
+<ul>
+<li>Example:<br>
+<b><’canvas id="myCanvas"’><’/canvas’></b><br>
+
+<’script’><br>
+var canvas = document.getElementById("myCanvas");<br>
+var ctx = canvas.getContext("2d");<br>
+ctx.fillStyle = "#FF0000";<br>
+ctx.fillRect(0, 0, 80, 80);<br>
+<’/script’><br>
+</li>
+</ul>
+
+
+<li>svg-(Scalable Vector Graphics)-SVG is used to define graphics for the Web
+  <ul>
+  <li>Example:<br>
+  <’!DOCTYPE html’><br>
+  <’html’><br>
+  <’body’><br>
+  <b><’svg width="100" height="100"’></b><br>
+    <’circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" /’><br>
+  <b><’/svg’></b><br>
+  <’/body’><br>
+  <’/html’><br>
+  </li>
+  </ul>
+
+
+</li>
+</ul>
+</div>
+
+<a class="btn btn-primary" href="#top"> Back to Top</a><br>
+
+<div id="tables" class="container">
+<p> Tables </p>
+<ul>
+<li>table-An HTML table consists of the <'table'> element and one or more <'tr'>, <'th'>, and <'td'> elements.</li>
+<li>tr- The <'tr'> tag defines a row in an HTML table.</li>
+<li>th-The text in <'th'> elements are bold and centered by default.The text in <'td'> elements are regular and left-aligned by default.</li>
+<li>td-The <'td'> tag defines a standard cell in an HTML table.</li>
+<li>Caption- The <'caption'> tag defines a table caption.The <'caption'> tag must be inserted immediately after the <'table'> tag.</li>
+<li>Thead-The <'thead'> tag is used to group header content in an HTML table.</li>
+<li>tbody-The <'tbody'> tag is used to group the body content in an HTML table</li>
+<li>colgroup-The <'colgroup'> tag specifies a group of one or more columns in a table for formatting. useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.</li>
+<li>col-The <'col'> tag specifies column properties for each column within a <'colgroup'> element. The <'col'> tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.</li>
+<li>tfoot-The <'tfoot>'' tag is used to group footer content in an HTML table.</li>
+</ul>
+
+</div>
+
+
+<a class="btn btn-primary" href="#top"> Back to Top</a> <br>
+
+<div id="more" class="container">
+<p> More Tags </p>
+<ul>
+<li>Style-The <'style'> tag is used to define style information for an HTML document.Inside the <'style'> element you specify how HTML elements should render in a browser.</li>
+<li>Script-The <'script'> element either contains scripting statements, or it points to an external script file through the src attribute.Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content.</li>
+<li>Canvas- The <'canvas'> tag is used to draw graphics, on the fly, via scripting (usually JavaScript).</li>
+<li>svg-(Scalable Vector Graphics)-SVG is used to define graphics for the Web
+</li>
+</ul>
+</div>
+
+
+
+<a class="btn btn-primary" href="#top"> Back to Top</a><br>
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+/* Add a black background color to the top navigation */
+.top {
+    background-color: blueviolet;
+    overflow: hidden;
+  }
+
+  /* Style the links inside the navigation bar */
+  .top a {
+    float:left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  /* Change the color of links on hover */
+  .top a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* Add a color to the active/current link */
+  .top a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  #head{
+    background-color: blue;
+    float:right;
+  }
+
+h1{
+  background-color: blue;
+  font-style:white;
+  font-family: fantasy;
+}
+h2{
+  background-color: orange;
+  font-style:white;
+  font-family: fantasy;
+}
+h3{background-color: red;
+font-style:white;
+font-family: fantasy;}
+
+h4{background-color: green;
+font-style:white;
+font-family: fantasy;}
+
+h5{background-color: pink;
+font-style:white;
+font-family: fantasy;}
+
+h6{background-color: teal;
+font-style:white;
+font-family: fantasy;}
+
+
+
+#BriefDescriptions
+{
+  background-color:white;
+}
+
+#SkeletalTags
+{
+
+}
+
+#TextTags{}
+
+  #TextTags-Inline{}
+
+    #structural{}
+
+#landm{}
+
+  #tables{}
+
+    #more{}
